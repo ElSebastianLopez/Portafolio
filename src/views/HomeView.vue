@@ -1,18 +1,47 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome 111111111to Your Vue.js + TypeScript App"/>
+    <div class="containerFrist">
+      <div class="containerCenter">
+        <div class="img">
+          <img src="../assets/logo.png" alt="">
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut atque totam impedit, </p>
+        </div>
+      </div>
+      <div>
+      </div>
+    </div>
+    <div class="secondContainer">
+      <div class="sectionOne">
+        <div class="picture">im</div>
+        <div class="text">tex</div>
+      </div>
+      <div class="sectionTwo">
+        <div class="text">tex</div>
+        <div class="picture">im</div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-
-export default defineComponent({
-  name: 'HomeView',
-  components: {
-    HelloWorld,
-  },
-});
 </script>
+
+<style lang="scss">
+@import '../assets/styles/main.scss';
+
+.img img{
+  width: 50px;
+  height: 50px;
+  padding-left: 48px;
+  padding-top:10px ;
+}
+ @media (min-width: 820px) {
+  .img img{
+  width: 70px;
+  height: 80px;
+  padding-right: 40px;
+}
+ }
+</style>
