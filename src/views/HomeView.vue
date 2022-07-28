@@ -12,16 +12,30 @@
       <div>
       </div>
     </div>
+    <div>
+      <h2>PROYECTOS</h2>
+    </div>
     <div class="secondContainer">
       <div class="sectionOne">
-        <div class="picture">im</div>
+        <div class="picture">img</div>
         <div class="text">tex</div>
       </div>
       <div class="sectionTwo">
-        <div class="text">tex</div>
-        <div class="picture">im</div>
+        <div class="picture2">im</div>
+        <div class="text2">tex</div>
       </div>
     </div>
+    <div>
+      <h2>EDUCACION</h2>
+    </div>
+    <div>
+      <h2>EXPERIENCIA</h2>
+    </div>
+    <footer>
+    <div>
+      <h2>CONTACTAME</h2>
+    </div>
+    </footer>
   </div>
 </template>
 
