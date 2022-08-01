@@ -1,0 +1,22 @@
+@mixin iconTamanioDestok {
+    height: 70px;
+    width: 70px;
+    margin: 7px;
+    border: 0.5px solid;
+}
+@mixin iconTamanioMovile {
+    height: 40px;
+    width: 40px;
+    margin: 4px;
+    border: 0.5px solid;
+}
+@mixin centrarIconos {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+@mixin grid($colum,$row) {
+    grid-template-columns: $colum;
+    grid-template-rows: $row;
+    
+}
