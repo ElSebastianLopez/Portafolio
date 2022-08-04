@@ -57,8 +57,63 @@
         <h1 class="c">C#</h1>
       </div>
     </div>
-    <div>
-      <h2>EDUCACION</h2>
+    <div class="containerEducation">
+      <div class="titleEducation">
+        <h2>EDUCACION</h2>
+      </div>
+      <div class="containerEstudies">
+        <div class="estudioFecha1">
+           <p>En curso</p>
+           <p>Pensilvania-Caldas</p>
+        </div>
+        <div class="estudio1">
+          <p>Colegio integrado nacional del oriente de caldas(CINOC).</p>
+          <p>Tecnología en sistemas informáticos</p>
+        </div>
+        <div class="estudioFecha2">
+          <p>2022-2022</p>
+          <p>Pensilvania-Caldas</p>
+        </div>
+        <div class="estudio2">
+          <p>ProsperCity</p>
+          <p>Desarrollador Front-end</p>
+        </div>
+        <div class="estudioFecha3">
+          <p>2020-2021</p>
+          <p>Pensilvania-Caldas</p>
+        </div>
+        <div class="estudio3">
+          <p>CISCO NETACAD</p>
+          <p>Diplomado en CiberSeguridad</p>
+        </div>
+         <div class="estudioFecha4">
+           <p>2019-2021</p>
+           <p>Pensilvania-Caldas</p>
+         </div>
+        <div class="estudio4">
+           <p>Colegio integrado nacional del oriente de caldas(CINOC).</p>
+           <p>
+               Técnico profesional en soporte y operaciones de sistemas
+               informáticos.
+           </p>
+        </div>
+        <div class="estudioFecha5">
+          <p>2017-2018</p>
+          <p>Arboleda-Cladas</p>
+        </div>
+        <div class="estudio5">
+          <p>Servicio nacional de aprendizaje(SENA)</p>
+          <p>Técnico en programación de software</p>
+        </div>
+        <div class="estudioFecha6">
+           <p>2013-2018</p>
+           <p>Arboleda-Cladas</p>
+        </div>
+        <div class="estudio6">
+          <p>I.E Pablo VI</p>
+          <p>Bachiller Academico</p>
+        </div>
+      </div>
     </div>
     <div>
       <h2>EXPERIENCIA</h2>
