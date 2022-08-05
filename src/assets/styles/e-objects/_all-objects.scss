@@ -4,17 +4,18 @@
     display: flex;
     background-color: $color2;
     width: 100%;
-    height: 250px;
+    height: 280px;
     justify-content: center;
   }
 .containerCenter{
     display: grid;
-    grid-template-columns: 150px;
-    grid-template-rows: 100px 150px;
+    grid-template-columns: 240px;
+    grid-template-rows: 89px 150px;
     background-color: $color1;
-    height: 250px;
-    width: 60%;
-    justify-content: space-around;
+    height: 280px;
+    width: 70%;
+    justify-items: center;
+    text-align: justify;
 }
 .sectionOne, .sectionTwo{
     display: grid;
@@ -72,10 +73,15 @@
 }
 .containerEducation{
     width: 100%;
-    height: 950px;
+    height: 970px;
     background-color: $color3;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.titleEducation{
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
 }
 .containerEstudies{
     display: grid;
@@ -93,27 +99,28 @@
 }
 .estudioFecha1,.estudio1{
     height: 150px;
-    background-color: $color2;
+    border-bottom: 1px solid;
 }
 .estudioFecha2,.estudio2{
     height: 150px;
-    background-color: azure;
+    border-bottom: 1px solid;
 }
 .estudioFecha3,.estudio3{
     height: 150px;
-    background-color: rgb(17, 29, 39);
+    border-bottom: 1px solid;
 }
 .estudioFecha4,.estudio4{
     height: 150px;
-    background-color: black;
+    border-bottom: 1px solid;
+    
 }
 .estudioFecha5,.estudio5{
     height: 150px;
-    background-color: red;
+    border-bottom: 1px solid;
 }
 .estudioFecha6,.estudio6{
     height: 150px;
-    background-color: yellow;
+    border-bottom: 1px solid;
 }
 
 
@@ -133,7 +140,7 @@
 
     .sectionOne{
         display: grid;
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 40% 59.2%;
         grid-template-rows:180px;
         height: 200px;
         gap: 10px;

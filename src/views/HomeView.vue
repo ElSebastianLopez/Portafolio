@@ -3,10 +3,14 @@
     <div class="containerFrist">
       <div class="containerCenter">
         <div class="img">
-          <img src="../assets/logo.png" alt="" />
+          <img src="../assets/media/sebas.jpg" alt="" />
         </div>
         <div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut atque totam impedit,</p>
+          <h2>SEBASTIAN LOPEZ GIRALDO</h2>
+          <p>Front end developer, y estudiante de Tecnología en Sistemas, tengo habilidades de
+            autoaprendizaje, liderazgo, trabajo en equipo, y dominio del público, con alto nivel de
+            responsabilidad y compromiso, soy una persona enfocada en culminar de la mejor
+            manera los proyectos o actividades en las que tenga participación.</p>
         </div>
       </div>
       <div></div>
@@ -93,8 +97,7 @@
         <div class="estudio4">
            <p>Colegio integrado nacional del oriente de caldas(CINOC).</p>
            <p>
-               Técnico profesional en soporte y operaciones de sistemas
-               informáticos.
+               Técnico profesional en Sop y Ope de sistemas informáticos.
            </p>
         </div>
         <div class="estudioFecha5">
@@ -132,17 +135,20 @@
 @import "../assets/styles/main.scss";
 
 .img img {
-  width: 50px;
-  height: 50px;
-  padding-left: 48px;
+  width: 60px;
+  height: 60px;
   padding-top: 10px;
+}
+.home{
+  margin: 10px;
 }
 
 @media (min-width: 820px) {
   .img img {
-    width: 70px;
-    height: 80px;
+    width: 150px;
+    height: 200px;
     padding-right: 40px;
+    padding-left: 48px;
   }
 }
 </style>
