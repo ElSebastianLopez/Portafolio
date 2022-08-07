@@ -124,12 +124,24 @@
     <footer>
       <div>
         <h2>CONTACTAME</h2>
+        <sl-formulario/>
       </div>
     </footer>
   </div>
 </template>
 
-<script lang="ts"></script>
+<script lang="ts">
+import SlFormulario from '@/components/SlFormulario.vue';
+
+export default {
+  components: {
+    SlFormulario,
+  },
+  props: {
+    message: String,
+  },
+};
+</script>
 
 <style lang="scss">
 @import "../assets/styles/main.scss";

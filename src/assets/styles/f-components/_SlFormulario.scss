@@ -1,0 +1,25 @@
+.Form{
+    height: 400px;
+    background-color: $color3;
+    line-height: 60px;
+    text-align: center;
+   
+}
+.Form div{
+ 
+}
+.Form div label{
+font-size: 20px;
+
+}
+.Form div label input{
+    width: 380px;
+    height: 30px;
+    border-radius: 20px ;
+    border: 1px solid;
+    
+    
+}
+.Form div label input textarea{
+   border-radius: 20%;
+}
