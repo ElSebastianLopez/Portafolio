@@ -1,5 +1,7 @@
 /* grid css o alque que modifique el layaut */
 /* movile version */
+.home{
+}
 .containerFrist{
     display: flex;
     background-color: $color2;
@@ -9,13 +11,26 @@
   }
 .containerCenter{
     display: grid;
-    grid-template-columns: 240px;
-    grid-template-rows: 90px 150px;
+    grid-template-columns: 320px;
+    grid-template-rows: 100px 150px;
     background-color: $color1;
     height: 280px;
     width: 100%;
-    justify-items: center;
+    justify-content: center;
     text-align: justify;
+    .img img{
+        display: flex;
+    }
+    h2{
+        padding: 10px;
+    }
+}
+.title-proyects{
+    h2{
+        height: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 .sectionOne, .sectionTwo{
     display: grid;
@@ -27,6 +42,10 @@
     width: 90%;
     margin: auto;
     height: 200px;
+    img{
+        height: 200px;
+        width: 337px;
+    }
 }
 .text {
     background-color: azure;
@@ -67,7 +86,7 @@
 .c{
   display: inline;
   font-size: 40px;
-  margin: 15px;
+  margin: 10px;
   padding:0;
   border: 0.5px solid;
 }
@@ -135,27 +154,32 @@
     .containerCenter{
         display: flex;
         flex-direction:row-reverse;
-       align-items: center;
+        align-items: center;
+        width: 85%;
+        p{
+            padding-left: 10px;
+        }
     }
 
-    .sectionOne{
+    .sectionOne, .sectionTwo{
         display: grid;
-        grid-template-columns: 40% 59.2%;
+        grid-template-columns: 35% 59.2%;
         grid-template-rows:180px;
         height: 200px;
         gap: 10px;
     }
     .sectionTwo{
-        /*display: grid;
-        grid-template-columns: 60% 40%;
-        grid-template-rows: 180px;*/
-        display: flex;
-        flex-direction:row-reverse;
-        height: 180px;
+       padding-top: 10px;
     }
     .picture{
         width: 100%;
         background-color: $color2;
+        img{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
     .text{
         width: 100%;

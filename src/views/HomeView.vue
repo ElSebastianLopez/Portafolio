@@ -15,12 +15,14 @@
       </div>
       <div></div>
     </div>
-    <div>
+    <div class="title-proyects">
       <h2>PROYECTOS</h2>
     </div>
     <div class="secondContainer">
       <div class="sectionOne">
-        <div class="picture">img</div>
+        <div class="picture">
+          <img src="../assets/media/pensilvania.png" alt="">
+        </div>
         <div class="text">
             <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed adipisci, dolore
@@ -46,6 +48,7 @@
         <h2 class="title-h2">SKILLS</h2>
       </div>
       <div class="skills">
+
         <font-awesome-icon icon="fa-brands fa-vuejs" />
 
         <font-awesome-icon icon="fa-brands fa-square-js" />
@@ -147,12 +150,10 @@ export default {
 @import "../assets/styles/main.scss";
 
 .img img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   padding-top: 10px;
-}
-.home{
-  margin: 10px;
+  margin: auto;
 }
 
 @media (min-width: 820px) {
