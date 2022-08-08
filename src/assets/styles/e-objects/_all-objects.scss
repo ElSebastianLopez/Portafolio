@@ -10,10 +10,10 @@
 .containerCenter{
     display: grid;
     grid-template-columns: 240px;
-    grid-template-rows: 89px 150px;
+    grid-template-rows: 90px 150px;
     background-color: $color1;
     height: 280px;
-    width: 70%;
+    width: 100%;
     justify-items: center;
     text-align: justify;
 }

@@ -1,29 +1,29 @@
 <template>
   <div class="home">
     <div class="Form">
-      <form action="">
+      <form ref="form" @submit.prevent="sendEmail">
         <div>
           <label for="nombre">
             Nombre:
-            <input id="nombre" type="text" placeholder="Nombre" />
+            <input name="nombre" id="nombre" type="text" placeholder="Nombre" />
           </label>
         </div>
         <div>
           <label for="apellidos">
             Apellidos:
-            <input id="apellidos" type="text" placeholder="Apellidos" />
+            <input name="apellidos" id="apellidos" type="text" placeholder="Apellidos" />
             </label>
         </div>
         <div>
           <label for="email">
             E-mail:
-            <input id="email" type="email" placeholder="E-mail" />
+            <input name="email" id="email" type="email" placeholder="E-mail" />
             </label>
         </div>
         <div>
           <label for="asunto">
-            Asunto:
-            <textarea id="asunto" placeholder="Escribe aqui tu mensaje
+            Mensaje:
+            <textarea name="asunto" id="asunto" placeholder="Escribe aqui tu mensaje
             " cols="50" rows="5"></textarea>
           </label>
         </div>
@@ -34,14 +34,34 @@
     </div>
   </div>
 </template>
-<script lang="ts">
+<script>
 import { defineComponent } from 'vue';
+import emailjs from '@emailjs/browser';
 
-export default defineComponent({
+export default {
   name: 'SlFormulario.vue',
-  props: {
+  data() {
+    return {
+      borrar: '',
+    };
   },
-});
+  methods: {
+    sendEmail(event) {
+      emailjs
+        .sendForm('service_gwl393s', 'template_u82bm0q', this.$refs.form, 'brfBHyc5K938Xxg9u')
+        .then(
+          (result) => {
+            alert('su mensaje fue enviado con exito');
+            event.target.reset();
+            console.log('SUCCESS!', result.text);
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    },
+  },
+};
 </script>
 <style lang="scss" scoped>
 @import '../assets/styles/main.scss';
