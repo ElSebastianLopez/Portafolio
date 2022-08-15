@@ -45,7 +45,7 @@
     <div></div>
     <div class="containerSkills">
       <div class="title">
-        <h2 class="title-h2">SKILLS</h2>
+        <h2 class="title-h2">HABILIDADES</h2>
       </div>
       <div class="skills">
 
@@ -121,7 +121,7 @@
         </div>
       </div>
     </div>
-    <div>
+    <div class="experience">
       <h2>EXPERIENCIA</h2>
     </div>
     <footer>

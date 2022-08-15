@@ -44,7 +44,7 @@
     height: 200px;
     img{
         height: 200px;
-        width: 337px;
+        width: 100%;
     }
 }
 .text {
@@ -140,6 +140,11 @@
 .estudioFecha6,.estudio6{
     height: 150px;
     border-bottom: 1px solid;
+}
+
+.experience{
+    height: 400px;
+    background-color: aqua;
 }
 
 
