@@ -25,9 +25,9 @@
         </div>
         <div class="text">
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed adipisci, dolore
+             dolor sit amet, consectetur adipisicing elit. Expedita sed adipisci, dolore
             amet aspernatur labore enim ab tempore, quis ducimus itaque! Veniam, veritatis. Eius
-            autem consequuntur vel ratione reprehenderit atque?
+            autem consequuntur vel ratione reprehenderit atquennnnnnnnns?
           </p>
         </div>
       </div>
