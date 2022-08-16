@@ -34,7 +34,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "src/Plugin/i18n.js"  ],
   "exclude": [
     "node_modules"
   ]
