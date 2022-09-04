@@ -122,11 +122,35 @@
       </div>
     </div>
     <div class="experience">
-      <h2>EXPERIENCIA</h2>
+      <h2 class="tituloexperiencia">EXPERIENCIA</h2>
+      <div class="experienciaLaboral">
+        <div class="experiencia1">
+          <h2>DESARROLLADOR JUNIOR </h2>
+          <h3>Tambora SAS</h3>
+          <h4>17/08/2022--ACTUAL</h4>
+          <h5>labores</h5>
+          <p>Diseño y ajustes a las vistas de los proyectos desarrollados en el empresa</p>
+          <p>Desarrollo de controladores para poryectos </p>
+          <p>Implementacion de Bases de datos con ASP.NET Entity framework </p>
+          <h3>Tecnologias</h3>
+          <P>HTML - CSS - JS - JQUERY - ASP.NET - SQL SERVER </P>
+        </div>
+        <div class="experiencia2">
+          <h2>TUTOR PROSPERCITY</h2>
+          <h3>Botcamp ProsperCity</h3>
+          <h4>23/05/2022--17/08/2022</h4>
+          <h5>labores</h5>
+          <p>Clases de logica de programacion</p>
+          <p>Clases de HTML CSS VUE,JS</p>
+          <p>Manejo de git Y GitHub</p>
+          <h3>Tecnologias</h3>
+          <P>HTML - CSS - JS - Vue.js- git  </P>
+        </div>
+      </div>
     </div>
     <footer>
       <div>
-        <h2>CONTACTAME</h2>
+        <h2 class="contacto">CONTACTAME</h2>
         <sl-formulario/>
       </div>
     </footer>

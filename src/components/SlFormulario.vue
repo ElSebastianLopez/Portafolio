@@ -5,26 +5,26 @@
         <div>
           <label for="nombre">
             Nombre:
-            <input name="nombre" id="nombre" type="text" placeholder="Nombre" />
+            <input name="nombre" id="nombre" type="text" placeholder="Nombre" required/>
           </label>
         </div>
         <div>
           <label for="apellidos">
             Apellidos:
-            <input name="apellidos" id="apellidos" type="text" placeholder="Apellidos" />
+            <input name="apellidos" id="apellidos" type="text" placeholder="Apellidos" required/>
             </label>
         </div>
         <div>
           <label for="email">
             E-mail:
-            <input name="email" id="email" type="email" placeholder="E-mail" />
+            <input name="email" id="email" type="email" placeholder="E-mail" required/>
             </label>
         </div>
         <div>
           <label for="asunto">
             Mensaje:
             <textarea name="asunto" id="asunto" placeholder="Escribe aqui tu mensaje
-            " cols="50" rows="5"></textarea>
+            " cols="50" rows="5" required></textarea>
           </label>
         </div>
         <div>
