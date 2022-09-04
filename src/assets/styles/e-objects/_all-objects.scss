@@ -108,7 +108,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(6,1fr);
-    border: 1px solid;
+   
     gap: 5px;
     p{
         font-size: 20px;
@@ -121,66 +121,82 @@
 .estudioFecha1,.estudio1{
     height: 150px;
     border-bottom: 1px solid;
+    width: 90%;
 }
 .estudioFecha2,.estudio2{
     height: 150px;
     border-bottom: 1px solid;
+    width: 90%;
 }
 .estudioFecha3,.estudio3{
     height: 150px;
     border-bottom: 1px solid;
+    width: 90%;
 }
 .estudioFecha4,.estudio4{
     height: 160px;
     border-bottom: 1px solid;
+    width: 90%;
     
 }
 .estudioFecha5,.estudio5{
     height: 150px;
     border-bottom: 1px solid;
+    width: 90%;
 }
 .estudioFecha6,.estudio6{
     height: 163px;
     border-bottom: 1px solid;
+    width: 90%;
 }
 
 .experience{
-    height: 510px;
-    background-color: aqua;
+    height: 560px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     
    
 }
 .tituloexperiencia{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
 .experiencia1{
     padding: 4px;
     width: 100%;
-    background-color: azure;
     height: 230px;
-    h2{
+    h2,h3,h4,h5{
         padding-bottom: 15px;
         padding-top: 10px;
+        padding: 8px;
+    }
+    p{
+        padding: 4px;
     }
 }
 .experiencia2{
     padding: 4px;
     width: 100%;
-    background-color: rgb(9, 80, 80);
+    margin-top: 95px;
     height: 230px;
-    h2{
+
+    h2,h3,h4,h5{
     
      padding-bottom: 15px;
      padding-top: 10px;
+     padding: 8px;
+    }
+    p{
+        padding: 4px;
     }
 }
 .contacto{
     padding-bottom: 20px;
+}
+footer{
+    margin-top: 140px;
 }
 
 
@@ -200,6 +216,10 @@
         p{
             padding-left: 10px;
         }
+    }
+    .secondContainer{
+        width: 90%;
+       margin: auto;
     }
 
     .sectionOne, .sectionTwo{
@@ -258,20 +278,34 @@
       padding:0;
       border: 0.5px solid;
     }
+    .containerEducation{
+        width: 90%;
+        margin: auto;
+    }
+
     .containerEstudies{
         p{
-            font-size: 30px;
             padding-left: 5px;
             padding-top: 5px;
         }
     }
     .experience{
-        height: 240px;
-        margin-bottom: 60px;
+        height: 350px;
+        margin-bottom: 90px;
+        width: 90%;
+        margin: auto;
     }
 
     .experienciaLaboral{
         display: flex;
+    }
+    .experiencia2{
+        margin-top: 0;
+    }
+    footer{
+        margin-top: 90px;
+        padding-bottom: 40px;
+        
     }
 
 }
